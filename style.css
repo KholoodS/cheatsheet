@@ -1,0 +1,81 @@
+/* Styling for the buttons */
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-right: 10px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Style for the Add Element button */
+#add-element {
+    background-color: #28a745;
+}
+
+/* Style for the Sort Array button */
+#sort-array {
+    background-color: #dc3545;
+}
+
+/* Styling for the array container and bars */
+.array-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    height: 200px;
+    overflow-x: auto;
+    white-space: nowrap;
+    margin-top: 20px;
+    background-color: #f2f2f2;
+}
+
+.array-bar {
+    width: 30px;
+    margin: 20px 12px;
+    align-items: center;
+    background-color: #007BFF;
+    display: inline-block;
+    vertical-align: bottom;
+    transition: height 0.3s, background-color 0.3s;
+}
+
+.array-bar.sorted {
+    background-color: #28a745;
+}
+
+/* Style for the element input field */
+#element-input {
+    padding: 5px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Style for the "Add Element" button */
+#add-element {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-right: 10px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Style for the "Sort Array" button */
+#sort-array {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
